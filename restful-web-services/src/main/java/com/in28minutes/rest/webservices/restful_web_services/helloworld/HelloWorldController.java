@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 	
 	// /hello-world
+	// plz update @RequestMapping to @GetMapping
 	
 	@RequestMapping(method = RequestMethod.GET, path = "/hello-world1")
 	public String helloWorld() {
